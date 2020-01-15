@@ -1,0 +1,112 @@
+@media (max-width:767px) {
+   .gap{
+       position: relative;
+       top: 0;
+       left: 0;
+   }
+ }
+
+
+@media (min-width:768px) {
+
+}
+
+
+
+@media (min-width:992px) {
+    
+}
+
+
+
+@media (max-width:991px) {
+
+    
+}
+@media (min-width:768px ) and (max-width:991px) {
+    .gap {
+        position: relative;
+        left: 80px;
+        top: 0;
+    }
+}
+
+
+
+@media (min-width:768px ) and (max-width:1199px) {
+
+       
+}
+
+
+
+@media (max-width:1200px) {
+    
+}
+@media(max-width:1000px)
+{
+    /* header */
+    header .fixed-top {
+        top: 88px;
+    } 
+header .top-header ul.contact-List
+    {
+        margin-bottom: 1rem;
+    }
+    header .top-header ul
+    {
+        text-align: center;
+    }
+    
+  /* header */
+}
+
+
+
+@media (max-width:767px) {
+    /* title-sec */
+    .title-sec{
+        text-align: center;
+    }
+    .title-sec::after{
+        margin: auto;
+    }
+
+   /* title-sec */
+   /* about-sec */
+    .aboutR{
+        text-align: center;
+    }
+
+    .aboutR .pl-5{
+        padding: 0 !important;
+    }
+   .aboutR .box-item .icon{
+       float: none;
+       display: block;
+       margin: 10px auto;
+   }
+   .aboutR .text
+   {
+       padding: 0;
+   }
+   /* about-sec */
+
+   /* partners */
+   .partner-items .item-box{
+    flex-direction: column;
+   }
+
+ }
+
+
+ 
+@media (max-width:480px) {
+    /* header */
+        header .fixed-top {
+            top: 114px;
+        }
+         /* header */
+    }
+    
+    
